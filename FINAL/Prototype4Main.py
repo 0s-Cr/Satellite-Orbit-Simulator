@@ -2,7 +2,7 @@
 from Prototype4Animation import *
 from Prototype4Library import *
 
-uniGrav = float(6.67408e-11)
+uniGrav = float(6.67408e-11)  # Universal Gravitational Constant, G
 
 
 def main():  # This process is used for taking the initial values the program utilises
@@ -18,7 +18,6 @@ def main():  # This process is used for taking the initial values the program ut
     print("Please enter the mass of the satellite:", end="")
     satMass = floatInputConverter()
     phase2(uniGrav, parentMass, parentRadius, rApo, rPer, satMass)
-
 
 
 def phase2(uniGrav, parentMass, parentRadius, rApo, rPer, satMass):  # This function is used for calculating the
